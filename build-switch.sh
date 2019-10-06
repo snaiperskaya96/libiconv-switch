@@ -6,3 +6,4 @@ cd libcharset
 make install -j`echo $CPUS`
 cd ../lib
 make install -j`echo $CPUS`
+cp include/iconv.h /opt/devkitpro/portlibs/switch/include/
